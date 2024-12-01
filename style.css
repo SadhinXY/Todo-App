@@ -128,7 +128,7 @@ body{
   }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 1060px) {
   .action-container {
     flex-direction: column;
   }
@@ -140,6 +140,36 @@ body{
   .text-box {
     margin-bottom: 10px;
   }
+
+  .title {
+    font-size: 100px;
+  }
+
+  .text-box {
+    font-size: 38px;
+    padding: 16px 24px;
+  }
+
+  .add-button {
+    font-size: 32px;
+    padding: 16px 24px;
+    margin-bottom: 15px;
+  }
+
+  .radio-selector {
+    font-size: 24px;
+  }
+
+  .todo-name {
+    font-size: 38px;
+    padding: 24px 18px;
+  }
+
+  .delete-icon {
+    width: 40px;
+  }
+
+
 }
 
 .js-delete-button {
